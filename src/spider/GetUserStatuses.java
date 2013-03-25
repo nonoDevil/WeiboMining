@@ -17,10 +17,12 @@ public class GetUserStatuses {
 
 	/**
 	 * @param args
+	 * @author nonodevil
+	 * @email linux.kakit@gmail.com
 	 */
 	public static void main(String[] args) throws IOException {
 		try {
-			String access_token = "2.00qp53MCHbo7GB165a2741bfiMX_xD";
+			String access_token = "";	//输入应用的access_token
 			Weibo weibo = new Weibo();
 			Timeline timeline = new Timeline();
 			timeline.client.setToken(access_token);
