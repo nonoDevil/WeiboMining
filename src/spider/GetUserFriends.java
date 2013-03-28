@@ -80,7 +80,7 @@ public class GetUserFriends {
 	        	System.out.println("RemainingUserHits: " + RemainingUserHits);
 				if ((RemainingIpHits <= 10) || (RemainingUserHits <= 10)) {
 					try {
-						Thread.sleep(4000000);	//如果API次数收到限制，睡眠4000s
+						Thread.sleep(4000000);	//如果API次数受到限制，睡眠4000s
 					} catch (InterruptedException e){
 						e.printStackTrace();
 					}
